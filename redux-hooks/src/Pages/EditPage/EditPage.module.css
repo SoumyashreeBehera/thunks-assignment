@@ -1,0 +1,94 @@
+.addTodo {
+  background-color: #c89595;
+  padding: 20px 0px;
+  text-align: center;
+}
+.addTodoInputs {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}
+.addTodoInputBox {
+  padding: 3px 20px;
+  background: white;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.addTodoInputBox > input {
+  height: 83%;
+  border: none;
+  font-size: 18px;
+}
+.addTodoInputs > button {
+  width: 100px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: white;
+}
+.addTodoButton {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.addTodoButton > button {
+  width: 100px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: white;
+}
+.togglebtn > button {
+  width: 150px;
+}
+.eachTodoBox {
+  background-color: #6c4a4a;
+  padding: 15px 5px;
+  border-radius: 5px;
+  width: 300px;
+  /* min-height: 250px; */
+}
+.titleBox {
+  padding: 0px 10px;
+  color: white;
+  font-size: 20px;
+}
+.titleBox > div {
+  margin: 10px 0px;
+}
+.titleBoxTaskNo {
+  background-color: #ddbebe;
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+.titleBoxName {
+  display: flex;
+  justify-content: space-between;
+}
+.toggleBox {
+  display: flex;
+  justify-content: space-between;
+}
+.backbtnbox {
+  text-align: center;
+}
+.backbtn {
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: white;
+}
+.backbtn > button {
+  border-radius: 5px;
+  height: 100%;
+  border: none;
+}
+.allTodoBox {
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+}

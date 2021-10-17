@@ -1,0 +1,128 @@
+.home {
+  background-color: #ededed;
+}
+.title {
+  text-align: center;
+}
+.addTodo {
+  background-color: #c89595;
+  padding: 20px 0px;
+  text-align: center;
+}
+.addTodoInputs {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}
+.addTodoInputBox {
+  padding: 3px 20px;
+  background: white;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+.addTodoInputBox > input {
+  height: 83%;
+  border: none;
+  font-size: 18px;
+}
+.addTodoInputs > button {
+  width: 100px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: white;
+}
+.addTodoButton {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.addTodoButton > button {
+  width: 100px;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: white;
+}
+.allTodoBox {
+  padding: 25px 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  /* grid-template-rows: auto; */
+  grid-gap: 5%;
+  justify-content: center;
+  background-color: #ededed;
+}
+.eachTodoBox {
+  background-color: #6c4a4a;
+  padding: 15px 5px;
+  border-radius: 5px;
+}
+.deleteBox {
+  padding: 0px 10px;
+  text-align: right;
+  color: white;
+}
+.titleBox {
+  padding: 0px 10px;
+  color: white;
+  font-size: 20px;
+}
+.titleBox > div {
+  margin: 10px 0px;
+}
+.titleBoxTaskNo {
+  background-color: #ddbebe;
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+.titleBoxName {
+  display: flex;
+  justify-content: space-between;
+}
+.switch {
+  display: inline-block;
+  width: 85px;
+  height: 32px;
+  position: relative;
+  /* background-color: rebeccapurple; */
+  /* margin: 0px 10px; */
+}
+.titleBoxEdit {
+  color: white;
+}
+.toggleBox {
+  display: flex;
+  justify-content: space-between;
+}
+.switch input {
+  visibility: hidden;
+}
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #329c92;
+  border-radius: 34px;
+}
+.switch input:checked + .slider {
+  background-color: #ddbebe;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(51px);
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 2px;
+  bottom: 1px;
+  background-color: white;
+  border-radius: 30px;
+}

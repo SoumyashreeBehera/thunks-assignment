@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #6c4a4a;
+  color: #ededed;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.navbar h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.links {
+  text-decoration: none;
+  color: #ededed;
+  font-size: 18px;
+  margin: 0px 20px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.25s;
+}
+.links:hover {
+  border-bottom-color: #ededed;
+}
+.linkBox {
+  display: flex;
+  align-items: center;
+}
